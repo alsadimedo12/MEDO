@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>عظمة مصر القديمة</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>حضارة مصر القديمة</h1>
+        <p>رحلة عبر الزمن من بناة الأهرامات إلى الإمبراطورية</p>
+    </header>
+
+    <nav>
+        <button onclick="showEra('old')">الدولة القديمة</button>
+        <button onclick="showEra('middle')">الدولة الوسطى</button>
+        <button onclick="showEra('modern')">الدولة الحديثة</button>
+    </nav>
+
+    <main id="content-area">
+        <section id="old" class="era-section active">
+            <h2>عصر الدولة القديمة (بناة الأهرام)</h2>
+            <div class="content">
+                <p>اشتهرت هذه الفترة بالاستقرار السياسي وبناء الأهرامات العظيمة مثل خوفو وخفرع ومنقرع.</p>
+                <ul>
+                    <li><strong>أهم الملوك:</strong> زوسر، خوفو.</li>
+                    <li><strong>أبرز الإنجازات:</strong> بناء هرم سقارة المدرج، تطوير الكتابة الهيروغليفية.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="middle" class="era-section">
+            <h2>عصر الدولة الوسطى (الرخاء الاقتصادي)</h2>
+            <div class="content">
+                <p>عُرف هذا العصر بالاهتمام بالمشاريع الريّ والزراعة والتوسع التجاري.</p>
+                <ul>
+                    <li><strong>أهم الملوك:</strong> منتوحتب الثاني، أمنمحات الثالث.</li>
+                    <li><strong>أبرز الإنجازات:</strong> حفر قناة سيزوستريس، بناء قصر التيه.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="modern" class="era-section">
+            <h2>عصر الدولة الحديثة (المجد الحربي)</h2>
+            <div class="content">
+                <p>عصر الإمبراطورية المصرية الكبرى حيث امتد النفوذ المصري شرقاً وغرباً.</p>
+                <ul>
+                    <li><strong>أهم الملوك:</strong> رمسيس الثاني، حتشبسوت، توت عنخ آمون.</li>
+                    <li><strong>أبرز الإنجازات:</strong> معبد الأقصر، معركة قادش، كنوز مقبرة توت عنخ آمون.</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>تم تصميم الموقع لاستكشاف تاريخ أجدادنا العظيم &copy; 2026</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
